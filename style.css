@@ -1,0 +1,128 @@
+.center {
+    text-align: center;
+    alignment: center;
+    background-color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#grid {
+    width: 1550px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#highScore {
+    height: 700px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.oswaldFont {
+    font-family: "Oswald", serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#replay {
+    height: auto;
+    width: 100px;
+    text-align: center;
+    alignment: center;
+    margin: auto;
+}
+
+hr.rounded {
+    border-top: 3px solid #bbb;
+    border-radius: 5px;
+}
+
+#replay:hover {
+    cursor: pointer;
+}
+
+.sticky {
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin-top: 1px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+ol {
+    border: solid grey 2px;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 600px;
+}
+
+h2 {
+    display: inline;
+}
+
+li {
+    margin-top: 10px;
+}
+
+#about {
+    float: right;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#contact {
+    margin-top: 15px;
+    float: right;
+}
+
+#nav {
+    top: 0;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100px;
+    background-color: white;
+}
+
+#score {
+    margin-top: 15px;
+    margin-left: 5%;
+    color: white;
+    animation-name: fadeWhtToBlk;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    float: left;
+}
+
+@keyframes fadeWhtToBlk {
+    from {color: white;}
+    to {color: black;}
+}
+
+img {
+    margin: 10px;
+    width: 285px;
+    height: 107px;
+    border-radius: 10px;
+    border: solid white 2px;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+    cursor: default;
+}
+
+a:link:active, a:visited:active {
+    color: black;
+}
